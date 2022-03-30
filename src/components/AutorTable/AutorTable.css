@@ -1,0 +1,91 @@
+
+
+
+
+
+.autorTable{
+    border-top: 1px solid var(--color-dark-light);
+    margin: 40px 20px;
+    padding: 40px 0;
+}
+
+table{
+    margin: 10px auto;
+}
+
+th, td{
+    width: 500px;
+    border: 1px solid black;
+    background: var(--color-letter);
+    color: var(--color-background);
+    transition: all 500ms ease;
+}
+th:hover, td:hover{
+    background: var(--color-letter-variant);
+}
+
+.product{
+    border: 1px solid var(--color-dark-light);
+    border-radius: 3px;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+    padding: auto;
+    transition: all 500ms ease;
+}
+.product:hover{
+    background: var(--color-dark-light);
+}
+
+.product-link{
+    color: var(--color-letter);
+}
+
+.product h2{
+    margin: 10px;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.product span{
+    font-size: 100px;
+}
+
+.product p{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.delete{
+    color: var(--color-background);
+    background: var(--color-letter);
+    font-size: 1rem;
+    border-radius: 2px;
+    margin-top: 10px;
+    border: none;
+    padding: 1rem 0;
+    width: 100%;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.delete:hover{
+    background: var(--color-letter-variant);
+}
+
+.submit-table{
+    color: var(--color-background);
+    background: var(--color-primary);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    margin: 5px 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.submit-table:hover{
+    background: var(--color-primary-variant);
+}
